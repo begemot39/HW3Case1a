@@ -1,9 +1,8 @@
 public class BonusMilesService {
-    int bonusMiles;
-    int ratio = 20;
-    public int calculate( int a ){
-        bonusMiles = a / ratio;
+    public int calculate(int price) {
+        int ratio = 20; // Ставка бонусных миль.
+        int bonusMiles = price / ratio;
+        ;
         return bonusMiles;
     }
-
 }
